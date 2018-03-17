@@ -4,7 +4,10 @@
   "description": "A pen and paper game assistant",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\"",
+    "start": "gulp",
+    "dev": "gulp dev-build",
+    "dist": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,8 @@
   },
   "homepage": "https://github.com/Sleepy-Fish/skald#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "run-sequence": "^2.2.1"
   }
 }
