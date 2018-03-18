@@ -41,8 +41,9 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
-    "kunsido-client": "^0.0.1",
+    "js-cookie": "^2.2.0",
     "materialize-css": "^0.100.2",
+    "socket.io-client": "^2.0.4",
     "vinyl-source-stream": "^2.0.0"
   }
 }
