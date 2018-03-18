@@ -41,7 +41,7 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
-    "kunsido-client": "^1.0.3",
+    "kunsido-client": "^0.0.1",
     "materialize-css": "^0.100.2",
     "vinyl-source-stream": "^2.0.0"
   }
