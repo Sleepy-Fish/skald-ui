@@ -1,7 +1,7 @@
 var KunsidoClient = require('./client')({
     protocol: 'https',
     host: 'sleepy.fish',
-    port: 6557,
+    port: 1337,
     onRoomUpdate: function(data){
         console.log('ROOM UPDATE:');
         console.log(data);
