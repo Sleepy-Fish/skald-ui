@@ -20,11 +20,29 @@
   },
   "homepage": "https://github.com/Sleepy-Fish/skald#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-eslint": "^4.0.2",
+    "gulp-inject": "^4.3.1",
+    "gulp-minify": "^2.1.0",
+    "gulp-open": "^3.0.0",
+    "gulp-purgecss": "^0.20.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "merge-stream": "^1.0.1",
     "run-sequence": "^2.2.1"
   },
   "dependencies": {
-    "kunsido-client": "^1.0.3"
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "kunsido-client": "^1.0.3",
+    "materialize-css": "^0.100.2",
+    "vinyl-source-stream": "^2.0.0"
   }
 }
