@@ -13,6 +13,7 @@ var merge = require('merge-stream');
 var minifyJS = require('gulp-minify');
 var minifyCSS = require('gulp-clean-css');
 var purge = require('gulp-purgecss');
+var inject = require('gulp-inject');
 var sequence = require('run-sequence');
 
 var config = require('./gulp.config');
